@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-c -Wall
 LDFLAGS=
-SOURCES=main.cpp libtbrpg/rpg_room.cpp
+SOURCES=main.cpp libtbrpg/rpg_room.cpp libtbrpg/rpg_player.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=prog
 
