@@ -13,6 +13,7 @@ using namespace std;
 class RPG_Room
 {
 public:
+	string title;
 	string desc;
 	RPG_Room* dirRooms[3];
 
