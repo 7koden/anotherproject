@@ -13,8 +13,9 @@ using namespace std;
 class RPG_Room
 {
 public:
-	string title;
+	string name;
 	string desc;
+	string firstVisitDescAddition;
 	RPG_Room* dirRooms[3];
 
 	RPG_Room();
