@@ -1,3 +1,5 @@
+#include "libtbrpg.h"
+
 RPG_Room::RPG_Room()
 {
 	dirRooms[0] = NULL;
